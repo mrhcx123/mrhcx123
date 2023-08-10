@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>欢迎来到 AZ 主页</title>
+        <!-- ------------------------------------------------- -->
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/fullpage.min.css" />
+        
+        <!-- 引入animate -->
+        <link rel="stylesheet" href="./css/animate.min.css" />
+        <link rel="stylesheet" href="./css/style-1.css" />
+        <link rel="stylesheet" href="./css/style-2.css" />
+        <link rel="stylesheet" href="./css/style-3.css" />
+        <link rel="stylesheet" href="./css/style-4.css" />
+        <link rel="stylesheet" href="./css/style-5.css" />
+        <link rel="stylesheet" href="./css/jaliswall.css" />
+        <!-- ------------------------------------------------- -->
+        <script src="js/jQuery.mini.js"></script>
+        <script src="js/fullpage.min.js"></script>
+        <script src="js/jaliswall.js"></script>
+        <script src="js/index.js"></script>
+        <style>
+            /* 轮播圆点颜色 */
+            #fp-nav ul li a span {
+                background-color: #fff !important;
+            }
+            /* 左右滑块的样式 */
+            .fp-bottom ul {
+                width: 100%;
+                text-align: center;
+            }
+            /* 三屏的圆点颜色 */
+            .fp-bottom ul li a span {
+                background-color: rgb(255, 255, 255);
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        
+  <audio id="myAudio" loop="loop" src="玫瑰.mp3"></audio>
+
+  <script>
+      var audio = document.getElementById("myAudio");
+
+      // 检测点击事件
+      document.addEventListener("click", playAudio);
+
+      // 播放音频
+      function playAudio() {
+          audio.play();
+          // 移除点击事件监听器，确保音频只自动播放一次
+          document.removeEventListener("click", playAudio);
+      }
+  </script>
+        <audio src="伍佰.mp3" autoplay="autoplay" loop hidden></audio>
+        <div id="dowebok">
+            <!-- <h3>第一屏</h3> -->
+            <div class="section sec1" id="section1">
+                <!-- 背景圆点 -->
+                <div class="sec1_circle1"></div>
+                <div class="sec1_circle2"></div>
+                <div class="sec1_circle3"></div>
+                <!-- 头部 -->
+                <nav>
+                    <ul>
+                        <li class="local_home">
+                            <a href="#page1">
+                                <span class="local_hd">Hi</span>
+                                <span class="local_bd">小乖</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page2">
+                                <span class="local_hd">Music</span>
+                                <span class="local_bd">听歌呦</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page3">
+                                <span class="local_hd">Photo</span>
+                                <span class="local_bd">美女宝贝</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page4">
+                                <span class="local_hd">read</span>
+                                <span class="local_bd">《论...》</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="wowowo.html">
+                                <span class="local_hd">More</span>
+                                <span class="local_bd">未完待续...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 内容区域 -->
+                <main>
+                    <div class="main_left">
+                        <div class="myPhoto current">
+                            <a href="#">
+                                <img src="images/qq.jpg" alt="" />
+                                <h3>AZ.</h3>
+                                <p>平平❤️🍂安安</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>我们</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>初识</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>点滴</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>情绪</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>彼此</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="main_right">
+                        <div class="content hidden" style="display: block">
+                            <img src="images/太阳.jpg" alt="" / class="touxiang">
+                           <p>原因不多</p>
+                           <p>因为天气好</p>
+                           <p>因为天气不好</p>
+                           <p>因为天气刚刚好</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="images/我们.jpg" alt="" / class="touxiang">
+                            <p>且看画图怡倦眼</p>
+                            <p>此中甘苦两心知</p>
+                            <p>&nbsp;漫无边际</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="images/初识.jpg" alt="" / class="touxiang">
+                            <p>生命是有关光的，在我熄灭以前</p>
+                            <p>能够照亮你一点，就是我所有能做的的了</p>
+                            <p>我爱你，你要记得我——《云边有个小卖部》</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="images/70.jpeg" alt="" / class="touxiang">
+                            <p>步入画卷，一梦千年</p>
+                            <p>汴京被春风染得很美</p>
+                            <p>心情也是</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="images/情绪.jpg" alt="" / class="touxiang">
+                            <p>在市井中放风</p>
+                            <p>和小情绪握手</p>
+                            <p>哪怕我们有万千不和，我依然把你写进愿望里</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="images/彼此.jpg" alt="" / class="touxiang">
+                            <p>不要吝啬表达</p>
+                            <p>碎碎念很幸福，很愿意听</p>
+                            <p>什么时候能喝的醉醺醺呢？</p>
+                        </div>
+
+                        
+                    </div>
+                </main>
+            </div>
+            <!-- <h3>第二屏</h3> -->
+            <div class="section sec2" id="section2">
+                <!-- 背景小圆点 -->
+                <div class="sec2_circle1"></div>
+                <div class="sec2_circle2"></div>
+                <div class="sec2_circle3"></div>
+                <!-- 主题内容 -->
+                <div class="sec2_main">
+                    <div class="sec2_main_head">
+                        <ul>
+                            <li class="current1">
+                                <a href="#">太阳可维修</a>
+                            </li>
+                            <li><a href="#">月亮可更换</a></li>
+                            <li><a href="#">星星不闪包退换</a></li>
+                            <li><a href="#">落日拉扯晚风</a></li>
+                            <li><a href="#">我牵着你走💓</a></li>
+                           
+                        </ul>
+                    </div>
+           
+
+                    <div class="sec2_main_body">
+                        <div class="sec2_main_body_content hidden" style="display: block">
+                            <div class="sec2_main_body_content_left">
+                                <p>💓</p>
+                                <p>英:My Stupid Heart💘</p>
+                                <p>译:我的恋爱脑💘</p>
+                                <p>性别：男</p>
+                                <p>生日：2002/09/24</p>
+                                <p>星座：天秤</p>
+                                <p>爱好：爱好打球，好ai妮</p>
+                                <p></p>
+                            </div> 
+                            
+                            <div class="sec2_main_body_content_right">
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p class="p1">My stupid heart，Don't know， I've tried to let you go， So many times before，Then wound up at your door。          
+                                    </p>
+                                    <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;我的恋爱脑，迷糊，我试着之前远离你的感受，却又回到你心门口</p>
+                                <p>💓</p>
+                                <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p class="p1">My stupid，
+                                    Can't believe that I haven't figured out by now，                                    
+                                    Every time I call you up，
+                                    All you do is let me down （Let's Go!）。</p>
+                                <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;我笨，不敢相信直到如今，致电给你，会出现你的笑脸</p>
+                                <p>💓</p>
+                                <p>&nbsp;</p>
+                                <p class="p1">Shoulda known there was nothing about us I could change，
+                                    Everytime we try to be friends，
+                                    It always ends the same。
+                                    </p>
+                                <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;早该明白，我们命中注定，每每想起相处时光，喜悦汹涌澎湃</p>
+                                <p>💓</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                
+                                <p>也许💘</p>
+                                <p>偶尔会想</p>
+                                <p>为什么不早一点呢</p>
+                                <p>不疾不徐</p>
+                                <p>慢慢来</p>
+                                <p>是一种诚意💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p class="p1">But when I try to remember，
+                                    All the pain that we've been through。                                         
+                                    </p>
+                                    <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;并且我总是认为，我本人平庸，但我的love很美</p>
+                                <p>💓</p>
+                                <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p class="p1">Something in me says whatever，
+                                    And it brings me back to you，
+                                    My stupid heart。
+                                    </p>
+                                <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;你真好看，我情不自禁。这该死的脑袋</p>
+                                <p>💓</p>
+                                <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p class="p1">Every now and then I get inside my head，
+                                    Try to leave your text on read，
+                                    But I wind up here instead。
+                                    
+                                    </p>
+                                <p class="p2">&nbsp;&nbsp;&nbsp;&nbsp;我偶尔沉思默想一番，尽量不去读你的消息，可已为时已晚</p>
+                                <p>💓</p>
+                                
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                             
+                                <p>💘一起</p>
+                                <p>送走💕日落</p>
+                                <p>等待星光💓</p>
+                                <p>拥抱💕凉风</p>
+                                <p>揽起秋月</p>
+                                <p>窗外星光点点💘</p>
+                                <p>依旧那么暖，风吹起了从前💕</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="images/16.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                
+                                <p>💘可爱的小王子说过</p>
+                                <p>💕花园里的玫瑰</p>
+                                <p>尽管都一模一样💓</p>
+                                <p>💕但只有你</p>
+                                <p>是我独一无二的玫瑰💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+
+                               <video src="video/1.mp4" controls="controls" preload="preload"></video>
+                                   
+                               
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>💘</p>
+                                <p  class="p1">"有限的时间"</p>
+                                <p>💓</p>
+                                <p>💘</p>
+                                <p  class="p1">"未知的世界"</p>
+                                <p>💓</p>
+                                <p  class="p1">"我们"</p>
+                                <p  class="p1">💓</p>
+                                <p>💘</p>
+                                <p  class="p1">"永远热恋"</p>
+                                <p>💓</p>
+                            </div>
+                        </div>
+                       
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                
+                                <p>💘一个非常可爱的人</p>
+                                <p>应该遇见最好的人</p>
+                                <p>💓真希望</p>
+                                <p>我就是💕</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <video class="v1" src="video/2.mp4" controls="controls" preload="preload"></video>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;喜欢就这样跟着你💕</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💕随便你带我到哪里去</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3>第三屏</h3> -->
+            <div class="section sec3" id="section3">
+                <div class="slide">
+                    <img src="images/92.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/24.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/23.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/94.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/38.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/39.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/17.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="images/88.jpg" alt="" />
+                </div>
+            </div>
+            <!-- <h3>第四屏</h3> -->
+            <div class="section sec4" id="section4">
+                <!-- 背景小圆点 -->
+                <div class="sec4_circle1"></div>
+                <div class="sec4_circle2"></div>
+                <div class="sec4_circle3"></div>               
+                <div class="sec4_main_box">                 
+                    <div id="sec4-app">
+                        <div class="sec4_title"><h2></h2></div>
+                        <div class="sec4_search">
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="《论如何征服英俊少男》"
+                                @keyup.enter="searchEnter"
+                                v-model="city"
+                                class="sec4_input"
+                            />
+                            <button @click="clickButton" class="sec4_button"><a href="wowowo.html">搜索</a></button>
+                        </div>
+                       
+                        <ul class="sec4_ul">
+                            <li v-for="item in weatherList" :key="index" class="sec4_li">
+                                <div class="sec4_weather">
+                                    <div class="tianqi">马上买票了哦</div>
+                                    <div class="qiwen">马山见面了哦</div>
+                                    <div class="date">要看烟花么<a href="噜噜噜.html">&nbsp;yes</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+    </body>
+</html>
